@@ -32,3 +32,8 @@ test('This is my 5th test ever', async ({ page }) => {
   await page.goto('https://google.com');
   await expect(page).toHaveTitle('Google');     
 });
+
+test('This is my 6th test ever', async ({ page }) => {
+  await page.goto('https://google.com');
+  await expect(page).toHaveTitle('Google');
+});
